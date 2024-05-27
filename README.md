@@ -41,8 +41,14 @@ For this project I acquired 10 years of data of flights operating out of New Yor
 ![Picture8](https://github.com/saadurrehman1/NYFliights/assets/170811931/b6bb4605-8401-401f-85da-ef5078bafd60)
 ![Picture9](https://github.com/saadurrehman1/NYFliights/assets/170811931/4a1cf426-540d-4359-a5e9-e0929ec98831)
 
-### Data Merging
+### 4. Data Merging
 - Three variables were identified to merge the two datasets, flight and weather. By using type casting, it was ensured that the three variables were of the same data type, and they were then used to perform a left join of the weather data on the flights data.
 - **Origin** variable in the flights data is the same variable as **station** variable in the weather data, it represents the location.
 - Common identifiers:
+![Picture10](https://github.com/saadurrehman1/NYFliights/assets/170811931/a7d9ed12-c4f2-4938-a148-05186fdc7118)
+![Picture11](https://github.com/saadurrehman1/NYFliights/assets/170811931/3758a5a4-3980-4e12-9b05-3915c6ac6a1b)
+
+## Data Storage
+- Stored the cleaned and merged dataset in HDFS on Microsoft Azure for scalability and accessibility
+- Created a data mart using Hive to organize and manage the big data.
 
