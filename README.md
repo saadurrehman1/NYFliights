@@ -22,7 +22,7 @@ For this project I acquired 10 years of data of flights operating out of New Yor
 - Only variables which were important for the analysis were checked for missing values.
 - It was found that the variable **DepTime** had missing values, but these missing values were less that the count of **cancelled flight**. This was not a cause of concern as flights which got cancelled would obviously have missing observations in **DepTime**.
 
-![Picture2](https://github.com/saadurrehman1/NYFliights/assets/170811931/a6deafcc-ab5c-4c2f-bc7f-b980e27b38fb)
+![Picture5](https://github.com/saadurrehman1/NYFliights/assets/170811931/7f58a75b-cd09-4676-992e-e29cde1f89e9)
 ![Picture3](https://github.com/saadurrehman1/NYFliights/assets/170811931/0ba0270c-bad2-40e9-8394-293fc410261d)
 
 ### 2. Out of range values
@@ -30,6 +30,19 @@ For this project I acquired 10 years of data of flights operating out of New Yor
 ![Picture4](https://github.com/saadurrehman1/NYFliights/assets/170811931/717482ed-824d-4a35-a410-5d5b2325b7aa)
 
 ### 3. Multiple Fields within a field
-
-
+- It was found that there was one variable each in flights and weather dataset which had multiple fields within a field. It was important to address this issue here because it would have caused problems later on when hive tables would be populated using comma delimitation.
+- For flights data, I only extracted the city name to overwrite this variable.
   
+![Picture6](https://github.com/saadurrehman1/NYFliights/assets/170811931/400a94d7-4021-4093-b9c6-5a407fb6db1e)
+![Picture7](https://github.com/saadurrehman1/NYFliights/assets/170811931/b8a06551-06eb-48d7-9b7b-cf708ce9cbf7)
+
+- For weather data, the **valid** timestamp variable was aplit into **date** and **time** variable which qould later be used for merging the two datasets.
+  
+![Picture8](https://github.com/saadurrehman1/NYFliights/assets/170811931/b6bb4605-8401-401f-85da-ef5078bafd60)
+![Picture9](https://github.com/saadurrehman1/NYFliights/assets/170811931/4a1cf426-540d-4359-a5e9-e0929ec98831)
+
+### Data Merging
+- Three variables were identified to merge the two datasets, flight and weather. By using type casting, it was ensured that the three variables were of the same data type, and they were then used to perform a left join of the weather data on the flights data.
+- **Origin** variable in the flights data is the same variable as **station** variable in the weather data, it represents the location.
+- Common identifiers:
+
