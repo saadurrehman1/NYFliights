@@ -53,5 +53,6 @@ For this project I acquired 10 years of data of flights operating out of New Yor
 - Connected Hive to Tableau to perform the visualizations and analysis using hive tables.
 
 ![Picture14](https://github.com/saadurrehman1/NYFliights/assets/170811931/bd0e5a60-ec07-45bd-bf48-8e9e439163c2)
-
+![Picture15](https://github.com/saadurrehman1/NYFliights/assets/170811931/9b49543f-683f-42ec-ab09-ed411d51840a)
+![Picture16](https://github.com/saadurrehman1/NYFliights/assets/170811931/c412cd35-314f-4110-b609-1f65f48c2e44)
 
