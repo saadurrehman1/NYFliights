@@ -1,7 +1,7 @@
 # New York Flights' Analysis
 
 ## Summary
-For this project I acquired 10 years of data of flights operating out of New York state. The aim of this project was to analyze the historical data to uncover any trends and patterns that would help optimize airlines operations. 10 years of weather data of New York state was also acquired and analyzed to find any correlation between weather conditions and flights cancellations and delays. Different data analytical tools which include **R, Ms Azure, HDFS, Hive, and Tableau** were utilized for the completion of this project. The analysis revealed significant correlations between adverse weather conditions and increased flight delays, highlighted peak times and seasons with higher delay occurrences, and compared the performance of different airlines and airports. Based on these insights, I recommended implementing targeted operational strategies during peak seasons and adverse weather, enhancing passenger communication, investing in advanced weather forecasting tools, and standardizing delay management protocols across airlines and airports.
+For this project I acquired 10 years of data of flights operating out of New York state. The aim of this project was to analyze the historical data to uncover any trends and patterns that would help optimize airlines operations. 10 years of weather data of New York state was also acquired and analyzed to find any correlation between weather conditions and flights cancellations and delays. Different data analytical tools which include **R, Ms Azure, HDFS, Hive, and Tableau** were utilized for the completion of this project. 
 
 ## Data Extraction
 - Collected flight data of the past 10 years (2014-2023) from the Bureau of Transportation Statistics (BTS) as primary data. The data was obtained in the csv format.
@@ -49,13 +49,13 @@ For this project I acquired 10 years of data of flights operating out of New Yor
 ![Picture10](https://github.com/saadurrehman1/NYFliights/assets/170811931/a7d9ed12-c4f2-4938-a148-05186fdc7118)
 ![Picture11](https://github.com/saadurrehman1/NYFliights/assets/170811931/3758a5a4-3980-4e12-9b05-3915c6ac6a1b)
 
-## Data Storage
+## Data Storage and Data Mart
 - Stored the cleaned and merged dataset in HDFS on Microsoft Azure for scalability and accessibility
 - Created a data mart using Hive to organize and manage the big data, utilizing HiveQL to make the process of querying the data time efficient.
 
 ![Picture12](https://github.com/saadurrehman1/NYFliights/assets/170811931/974576f8-f68f-40bb-80d8-9c2d2179236f)
 
-## Data Visualization
+## Data Visualization using Tableau
 - Connected Hive to Tableau to perform the visualizations and analysis using hive tables.
 
 ![Picture14](https://github.com/saadurrehman1/NYFliights/assets/170811931/bd0e5a60-ec07-45bd-bf48-8e9e439163c2)
