@@ -1,4 +1,4 @@
-# New York Fliights' Analysis
+# New York Flights' Analysis
 
 ## Summary
 For this project I acquired 10 years of data of flights operating out of New York state. The aim of this project was to analyze the historical data to uncover any trends and patterns that would help optimize airlines operations. 10 years of weather data of New York state was also acquired and analyzed to find any correlation between weather conditions and flights cancellations and delays. Different data analytical tools which include **R, Ms Azure, HDFS, Hive, and Tableau** were utilized for the completion of this project. The analysis revealed significant correlations between adverse weather conditions and increased flight delays, highlighted peak times and seasons with higher delay occurrences, and compared the performance of different airlines and airports. Based on these insights, I recommended implementing targeted operational strategies during peak seasons and adverse weather, enhancing passenger communication, investing in advanced weather forecasting tools, and standardizing delay management protocols across airlines and airports.
@@ -45,10 +45,16 @@ For this project I acquired 10 years of data of flights operating out of New Yor
 - Three variables were identified to merge the two datasets, flight and weather. By using type casting, it was ensured that the three variables were of the same data type, and they were then used to perform a left join of the weather data on the flights data.
 - **Origin** variable in the flights data is the same variable as **station** variable in the weather data, it represents the location.
 - Common identifiers:
+
 ![Picture10](https://github.com/saadurrehman1/NYFliights/assets/170811931/a7d9ed12-c4f2-4938-a148-05186fdc7118)
 ![Picture11](https://github.com/saadurrehman1/NYFliights/assets/170811931/3758a5a4-3980-4e12-9b05-3915c6ac6a1b)
 
 ## Data Storage
 - Stored the cleaned and merged dataset in HDFS on Microsoft Azure for scalability and accessibility
-- Created a data mart using Hive to organize and manage the big data.
+- Created a data mart using Hive to organize and manage the big data, utilizing HiveQL to make the process of querying the data time efficient.
 
+![Picture12](https://github.com/saadurrehman1/NYFliights/assets/170811931/974576f8-f68f-40bb-80d8-9c2d2179236f)
+
+## Data Visualization
+- Connected Hive to Tableau to perform the visualizations and analysis using hive tables.
+  
