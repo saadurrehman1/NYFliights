@@ -54,7 +54,7 @@ For this project I acquired 10 years of data of flights operating out of New Yor
 ![Picture15](https://github.com/saadurrehman1/NYFliights/assets/170811931/9b49543f-683f-42ec-ab09-ed411d51840a)
 ![Picture16](https://github.com/saadurrehman1/NYFliights/assets/170811931/c412cd35-314f-4110-b609-1f65f48c2e44)
 
-## Insigts
+## Insights
 - The first and second quarters of the year 2020 saw the highest cancellation rates in the past 10 years due to the COVID-19 pandemic.
 - It was noted that airlines experienced the most cancellations in December, January, and February over the past 10 years due to average ice accumulation exceeding 0.05 inches in 1 hour.
 - B6 and DL were the worst-performing airlines, facing the most delays and diversions, with their diversion counts peaking in the year 2023.
