@@ -1,5 +1,3 @@
-# New York Flights' Analysis
-
 ## Summary
 For this project I acquired 10 years of data of flights operating out of New York state. The aim of this project was to analyze the historical data to uncover any trends and patterns that would help optimize airlines operations. 10 years of weather data of New York state was also acquired and analyzed to find any correlation between weather conditions and flights cancellations and delays. Different data analytical tools which include **R, Ms Azure, HDFS, Hive, and Tableau** were utilized for the completion of this project. 
 
