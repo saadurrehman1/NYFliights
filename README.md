@@ -4,14 +4,8 @@
 For this project I acquired 10 years of data of flights operating out of New York state. The aim of this project was to analyze the historical data to uncover any trends and patterns that would help optimize airlines operations. 10 years of weather data of New York state was also acquired and analyzed to find any correlation between weather conditions and flights cancellations and delays. Different data analytical tools which include **R, Ms Azure, HDFS, Hive, and Tableau** were utilized for the completion of this project. 
 
 ## Data Extraction
-- Collected flight data of the past 10 years (2014-2023) from the Bureau of Transportation Statistics (BTS) as primary data. The data was obtained in the csv format.
-  https://www.transtats.bts.gov/PREZIP/
-  
-  ![Picture1](https://github.com/saadurrehman1/NYFliights/assets/170811931/03672a96-2006-452e-82ff-adbf8274f0e5)
-
-
-- Collected weather data of New York state over the same corresponding period from Mesonet as secondary data. This weather data was obtained in csv format as well.
-  https://mesonet.agron.iastate.edu/request/download.phtml
+- Collected flight data of the past 10 years (2014-2023) from the [Bureau of Transportation Statistics (BTS)](https://www.transtats.bts.gov/PREZIP/) as primary data. The data was obtained in the csv format.
+- Collected weather data of New York state over the same corresponding period from [Mesonet](https://mesonet.agron.iastate.edu/request/download.phtml) as secondary data. This weather data was obtained in csv format as well.
 
 ## Data Transformation
 - For cleaning and merging of the two datasets **R** was used.
