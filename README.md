@@ -22,7 +22,6 @@ For this project I acquired 10 years of data of flights operating out of New Yor
 - Only variables which were important for the analysis were checked for missing values.
 - It was found that the variable **DepTime** had missing values, but these missing values were less that the count of **cancelled flight**. This was not a cause of concern as flights which got cancelled would obviously have missing observations in **DepTime**.
 
-![Picture2](https://github.com/saadurrehman1/NYFliights/assets/170811931/eb43f032-93b0-4b9c-a412-e7a2c00a470c)
 
 
   
