@@ -18,10 +18,18 @@ For this project I acquired 10 years of data of flights operating out of New Yor
 - Given the sheer volume and size of the flights data, it was decided to use sparklyr. Sparklyr was used to create a cluster on the local machine which allowed for fast parallel processing of the data.
 - Dplyr was used to read the two datasets into the program and perform data quality checks.
 
-### Missing records
+### 1. Missing records
 - Only variables which were important for the analysis were checked for missing values.
 - It was found that the variable **DepTime** had missing values, but these missing values were less that the count of **cancelled flight**. This was not a cause of concern as flights which got cancelled would obviously have missing observations in **DepTime**.
 
+![Picture2](https://github.com/saadurrehman1/NYFliights/assets/170811931/a6deafcc-ab5c-4c2f-bc7f-b980e27b38fb)
+![Picture3](https://github.com/saadurrehman1/NYFliights/assets/170811931/0ba0270c-bad2-40e9-8394-293fc410261d)
+
+### 2. Out of range values
+
+![Picture4](https://github.com/saadurrehman1/NYFliights/assets/170811931/717482ed-824d-4a35-a410-5d5b2325b7aa)
+
+### 3. Multiple Fields within a field
 
 
   
